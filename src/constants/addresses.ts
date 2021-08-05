@@ -2,7 +2,7 @@ import { ChainId } from '../enums/ChainId'
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '0xC8C1E93b9851EcfD837702E625DdebB4E17AD93b',
+  [ChainId.ROPSTEN]: '0xACe9D6c27FCf4013f3F7Ae8e8C1f58B0eefc9949',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
@@ -32,7 +32,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
   [ChainId.RINKEBY]: '',
-  [ChainId.ROPSTEN]: '0xDc1853eE51D3B575B963F0D7F459362F36d3394c',
+  [ChainId.ROPSTEN]: '0xF72f6B9E731Cd2c5652212C3145023801C976121',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
