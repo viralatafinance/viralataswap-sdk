@@ -2,7 +2,7 @@ import { ChainId } from '../enums/ChainId'
 
 export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
-  [ChainId.ROPSTEN]: '0x77084F4CF68C54d07B9b8F0a56712Ee4E77eB0DB',
+  [ChainId.ROPSTEN]: '0xC8C1E93b9851EcfD837702E625DdebB4E17AD93b',
   [ChainId.RINKEBY]: '',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
