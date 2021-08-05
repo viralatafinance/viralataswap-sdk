@@ -32,7 +32,7 @@ export const FACTORY_ADDRESS: { [chainId in ChainId]: string } = {
 export const ROUTER_ADDRESS: { [chainId in ChainId]: string } = {
   [ChainId.MAINNET]: '',
   [ChainId.RINKEBY]: '',
-  [ChainId.ROPSTEN]: '0x8E06355BE1e375903b3B857cA96beeDE45456431',
+  [ChainId.ROPSTEN]: '0x50adDC0243A6ECa6E93D4ecB169073FCB544283D',
   [ChainId.GÖRLI]: '',
   [ChainId.KOVAN]: '',
   [ChainId.FANTOM]: '',
