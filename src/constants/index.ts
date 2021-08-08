@@ -8,7 +8,7 @@ export const MaxUint256 = JSBI.BigInt(
 )
 
 export const INIT_CODE_HASH: string =
-  '0xdf9ef0b24c9d3288fb72d68cf3f42dec211f1f40172f1aabc2e94dabf254ee7e'
+  '0xd39259fbdc5cd752315cfb4498f748e74052f5274e21116c44d80c980ae576ad'
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
