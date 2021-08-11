@@ -2,7 +2,6 @@
 
 In-depth documentation on this SDK is available at [uniswap.org](https://uniswap.org/docs/v2/SDK/getting-started/).
 
-This modifies uniswap-sdk's UniswapV2Factory address. The new address for sushiswap is  `0x77084F4CF68C54d07B9b8F0a56712Ee4E77eB0DB`.
 
 ## Running tests
 
@@ -14,7 +13,7 @@ First clone the repository:
 git clone https://github.com/viralatafinance/viralataswap-sdk.git
 ```
 
-Move into the sushiswap-sdk working directory
+Move into the viralataswap-sdk working directory
 
 ```sh
 cd viralataswap-sdk/
