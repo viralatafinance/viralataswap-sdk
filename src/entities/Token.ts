@@ -324,5 +324,11 @@ export const WNATIVE: { [chainId: number]: Token } = {
     18,
     'WPALM',
     'Wrapped Palm'
+  ),  [ChainId.MOONRIVER]: new Token(
+    ChainId.MOONRIVER,
+    '0x98878B06940aE243284CA214f92Bb71a2b032B8A',
+    18,
+    'WMOVR',
+    'Wrapped MOVR'
   ),
 }
