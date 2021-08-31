@@ -1,4 +1,3 @@
-import { Moonriver } from '../entities/natives/Moonriver'
 import {
   Avalanche,
   Binance,
@@ -11,6 +10,7 @@ import {
   Okex,
   Palm,
   xDai,
+  Moonriver
 } from '../entities/natives'
 
 import { ChainId } from '../enums'
