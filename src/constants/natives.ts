@@ -1,4 +1,4 @@
-import { Moonriver } from 'entities/natives/Moonriver'
+import { Moonriver } from '../entities/natives/Moonriver'
 import {
   Avalanche,
   Binance,
