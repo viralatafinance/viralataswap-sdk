@@ -4,9 +4,9 @@ import { Currency } from '../Currency'
 import { NativeCurrency } from '../NativeCurrency'
 import invariant from 'tiny-invariant'
 
-export class Binance extends NativeCurrency {
+export class Moonriver extends NativeCurrency {
   protected constructor(chainId: number) {
-    super(chainId, 18, 'BNB', 'Binance Coin')
+    super(chainId, 18, 'MOVR', 'Moonriver')
   }
 
   public get wrapped(): Token {
@@ -15,10 +15,10 @@ export class Binance extends NativeCurrency {
     return wnative
   }
 
-  private static _cache: { [chainId: number]: Binance } = {}
+  private static _cache: { [chainId: number]: Moonriver } = {}
 
-  public static onChain(chainId: number): Binance {
-    return this._cache[chainId] ?? (this._cache[chainId] = new Binance(chainId))
+  public static onChain(chainId: number): Moonriver {
+    return this._cache[chainId] ?? (this._cache[chainId] = new Moonriver(chainId))
   }
 
   public equals(other: Currency): boolean {
